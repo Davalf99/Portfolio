@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+#header{
+    background-color: #1171ef;
+    color: white;
+    padding: 30px 0%;
+    
+}
+
+.icon{
+    width: 2.375rem;
+    height: 2.375rem;
+}
+
+.resumeBtn{
+    display: block;
+}
+
+#infoSection{
+    width: 400px;
+}
+
+#profilePicture{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
