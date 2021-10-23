@@ -7,5 +7,19 @@
         "description 1",
         "description 2",
         "description 3"
+    ],
+    "education": [
+        {
+            "name": "ULatina (Software Engineering)",
+            "type": "University",
+            "duration": "2018 - Current",
+            "description" : "Some description"
+        },
+        {
+            "name": "Udemy (WebDev)",
+            "type": "Extracurricular",
+            "duration": "2021",
+            "description" : "Some description"
+        }
     ]
 }

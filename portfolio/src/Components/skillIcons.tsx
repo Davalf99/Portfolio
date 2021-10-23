@@ -53,6 +53,9 @@ const SkillIcons: FC = () => {
                 <div className='skillIconWrapper'>
                     <img className='skillIcon' src={bootsrap} alt='bootstrap' />
                 </div>
+                <div className='skillIconWrapper'>
+                    <img className='skillIcon' src={azure} alt='azure' />
+                </div>
             </div>
         </div>
     )
