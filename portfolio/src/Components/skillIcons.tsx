@@ -16,7 +16,7 @@ import bootsrap from '../images/skills/bootstrap.png';
 const SkillIcons: FC = () => {
     return (
         <div>
-            <div className='skillsContainer'>
+            <div className='skillsContainer center'>
                 <div className='skillIconWrapper'>
                     <img className='skillIcon' src={html} alt='html' />
                 </div>
@@ -37,7 +37,7 @@ const SkillIcons: FC = () => {
                 </div>
             </div>
 
-            <div className='skillsContainer'>
+            <div className='skillsContainer center'>
                 <div className='skillIconWrapper'>
                     <img className='skillIcon' src={java} alt='java' />
                 </div>

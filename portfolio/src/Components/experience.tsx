@@ -9,10 +9,10 @@ const Experience: FC<ExperienceElements> = (props) => {
         <div>
             <h1 className='center'>Experience</h1>
             <div className='container'>
-                <div className='row'>
+                <div className='row center'>
                     {props.experience.map((experience) => {
                         return (
-                            <div className='experienceCard'>
+                            <div className='card experienceCard'>
                                 <div className='companyName'>
                                     <h3>{experience.company}</h3>
                                 </div>

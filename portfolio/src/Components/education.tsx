@@ -6,14 +6,14 @@ interface EducationElements {
 
 const Education: FC<EducationElements> = (props) => {
     return (
-        <div id='education'>
+        <div id='education' className='blueWrapper'>
             <h1 className='center'>Education</h1>
             <div className='container'>
-                <div className='row'>
+                <div className='row center'>
                     {props.education.map((education) => {
                         return (
 
-                            <div className='educationCard col-lg-6 col-sm-12'>
+                            <div className='card educationCard col-lg-6 col-sm-12'>
                                 <h3>{education.name}</h3>
                                 <p>{education.type}</p>
                                 <p>{education.duration}</p>
