@@ -10,24 +10,44 @@ h2{
     background-color: #1171ef;
     color: white;
     padding: 30px 0%;
+    max-width: 100%;
     
+    
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .icon{
     width: 2.375rem;
     height: 2.375rem;
+    margin: 50px 7px 0;
 }
 
 .resumeBtn{
     display: block;
+    margin-top: 20px;
 }
 
 #infoSection{
     width: 400px;
+    margin-left: 30px;
 }
 
 #profilePicture{
     border-radius: 50%;
     height: 300px;
+    margin-bottom: 30px;
+}
+
+.profWrapper{
+    padding-top: 10px;
     width: 300px;
+}
+
+#nameText{
+    margin-bottom: 40px;
 }
