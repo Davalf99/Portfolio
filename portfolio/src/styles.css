@@ -81,9 +81,11 @@ h2{
 #education{
     background-color: #1171ef;
     padding: 30px 0;
+    color: white;
 }
 
 .educationCard{
+    color: black;
     background-color: white;
     width: 435px;
     height: 300px;
@@ -92,3 +94,29 @@ h2{
     box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384)!important;
     margin: 10px;
 }
+
+/* .experience */
+
+.experienceCard{
+    color: black;
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 2%;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384)!important;
+    margin: 25px;
+    padding: 0;
+}
+
+.companyName{
+    color: white;
+    background-color: #1171ef;
+    width: 100%;
+    height: 80px;
+    border-radius: calc(.25rem - .0625rem) calc(.25rem - .0625rem) 0 0;
+    padding: 22px;
+    margin-bottom: 25px;
+}
+
+/* projects */

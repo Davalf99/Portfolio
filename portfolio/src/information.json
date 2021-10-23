@@ -13,13 +13,27 @@
             "name": "ULatina (Software Engineering)",
             "type": "University",
             "duration": "2018 - Current",
-            "description" : "Some description"
+            "description": "Some description"
         },
         {
             "name": "Udemy (WebDev)",
             "type": "Extracurricular",
             "duration": "2021",
-            "description" : "Some description"
+            "description": "Some description"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Tek Experts",
+            "position": "Techinical Support",
+            "duration": "April 2020 - Current",
+            "description": "Some description"
+        },
+        {
+            "company": "Tek Experts",
+            "position": "Techinical Support",
+            "duration": "April 2020 - Current",
+            "description": "Some description"
         }
     ]
 }

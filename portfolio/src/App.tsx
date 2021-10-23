@@ -4,6 +4,7 @@ import './styles.css'
 import Header from'./Components/header'
 import Skills from './Components/skills';
 import Education from './Components/education';
+import Experience from './Components/experience';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header name={information.name} description={information.description} gitHubLink={information.gitHub} linkedInLink={information.linkedIn}/>
       <Skills skillDescription={information.skills}/>
       <Education education={information.education} />
+      <Experience experience={information.experience}/>
     </div>
   );
 }
