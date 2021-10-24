@@ -105,9 +105,39 @@ h2{
 /* projects */
 
 #projectsWrapper{
-    height: 500px;
+    padding: 40px 0;
 }
 
+.projectCard{
+    /* height: 400px;
+    width: 600px; */
+    margin-bottom: 60px;    
+}
+
+.project-image{
+    height: 400px;
+}
+
+@media screen and (max-width: 1185px){
+    .project-image{
+        height: 300px;
+    }    
+}
+
+@media screen and (max-width: 700px){
+    .project-image{
+        height: 250px;
+    }    
+}
+
+/* footer */
+
+.footer{
+    background-color: #3f3e3e;
+    width: 100%;
+    padding: 30px;
+    color: white;
+}
 
 /* global */
 
@@ -117,7 +147,7 @@ h2{
 }
 
 .card{
-    border-radius: 2%;
+    border-radius: 7px;
     text-align: center;
     box-shadow: 0 15px 35px rgba(38, 38, 70, 0.219),0 5px 15px rgba(0, 0, 0, 0.384)!important;
     color: black;
@@ -133,18 +163,4 @@ h2{
     margin: 0;
 }
 
-.test1{
-    height: 200px;
-    width: 200px;
-    background-color: red;
-}
-.test2{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-}
 
-.test3{
-    height: 50px;
-    width: 50px;
-}

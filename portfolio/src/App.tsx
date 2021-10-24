@@ -6,6 +6,7 @@ import Skills from './Components/skills';
 import Education from './Components/education';
 import Experience from './Components/experience';
 import Projects from './Components/projects';
+import Footer from './Components/footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Skills skillDescription={information.skills}/>
       <Education education={information.education} />
       <Experience experience={information.experience}/>
-      <Projects/>
+      <Projects projects={information.projects}/>
+      <Footer email={information.email} phone={information.phone}/>
     </div>
   );
 }

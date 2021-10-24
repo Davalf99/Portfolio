@@ -1,34 +1,39 @@
 import React, { FC } from 'react';
+import { Carousel } from 'react-bootstrap';
 
-const Projects: FC = () => {
+interface ProjectsElements {
+    projects: Array<any>
+}
+
+const Projects: FC<ProjectsElements> = (props) => {
     return (
         <div id='projectsWrapper' className='blueWrapper'>
+            <Carousel>
+                {props.projects.map((projects) => {
+                    return (
 
-
-            <div>
-                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <h1>Test1</h1>
-                        </div>
-                        <div className="carousel-item">
-                            <h1>Test2</h1>
-                        </div>
-                        <div className="carousel-item">
-                            <h1>Test3</h1>
-                        </div>
-                    </div>
-                    <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-
+                        <Carousel.Item interval={1000000}>
+                            <div className='container'>
+                                <div className='row center'>
+                                    <div className='projectCard card'>
+                                        <h1>{projects.title}</h1>
+                                        <div className='container'>
+                                            <div className='row center'>
+                                                <div className='col-md-12 col-lg-4 test2'>
+                                                    <p>{projects.description}</p>
+                                                </div>
+                                                <div className='col-md-12 col-lg-8'>
+                                                    <img className='project-image' src='https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg' alt=''/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Carousel.Item>
+                    )
+                })}
+            </Carousel>
         </div >
     )
 }
