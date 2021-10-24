@@ -20,10 +20,10 @@ const Header: FC<HeaderElements> = (props) => {
             <div className="row center">
 
                 <div className='profWrapper col-lg-6 col-sm-12'>
-                    <h2>
+                    <h2 className='center'>
                         Hey, I'm {props.name}!
                     </h2>
-                    <img id='profilePicture' src='https://media-exp1.licdn.com/dms/image/C4E03AQHypkXM04RHhw/profile-displayphoto-shrink_800_800/0/1583432178556?e=1640217600&v=beta&t=N90yfPQblfuTqx0OQqB1CSECMRIsqT3DcVBkTbs05P4' alt='profile' />
+                    <img id='profilePicture' src='https://avatars.githubusercontent.com/u/46801794?v=4' alt='profile' />
                 </div>
 
                 <div id='infoSection' className='col-lg-6 col-sm-12'>

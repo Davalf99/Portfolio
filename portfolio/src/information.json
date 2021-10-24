@@ -34,6 +34,24 @@
             "position": "Techinical Support",
             "duration": "April 2020 - Current",
             "description": "Some description"
+        },
+        {
+            "company": "Tek Experts",
+            "position": "Techinical Support",
+            "duration": "April 2020 - Current",
+            "description": "Some description"
+        }
+    ],
+    "projects": [
+        {
+            "title": "MovieDB",
+            "technologies": [
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "description": "Some description"
         }
     ]
 }
