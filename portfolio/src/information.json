@@ -2,46 +2,44 @@
     "name": "David Alfonso",
     "email": "davalf99@gmail.com",
     "phone": "+506 83088669",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "description": "I am a software developer, currently focusing on web development. I enjoy front-end development as well as the back-end. I am looking to get more practice and experience in the world of development. I hope to also learn new technologies to add to my stack. I created this portfolio with React to showcase some of my abilities. You can find the repo in the projects section.",
     "linkedIn": "https://www.linkedin.com/in/david-alfonso-75159b1a3/",
     "gitHub": "https://github.com/Davalf99",
+    "resume":"https://www.yumpu.com/es/document/read/65933665/davidresume",
     "skills": [
-        "description 1",
-        "description 2",
-        "description 3"
+        "I am able to develop front-ends using HTML 5, CSS 3, JavaScript/TypeScript and frameworks such as React and Bootstrap.",
+        "Familiar with back-end technologies such as NodeJs, C++, C# and Java.",
+        "Capable of working in agile methodologies such as Kanban and SCRUM."
     ],
     "education": [
         {
-            "name": "ULatina (Software Engineering)",
-            "type": "University",
-            "duration": "2018 - Current",
-            "description": "Some description"
+            "name": "Lad Nubes School",
+            "type": "High School",
+            "duration": "2013 - 2016"
         },
         {
-            "name": "Udemy (WebDev)",
+            "name": "ULatina (Software Engineering)",
+            "type": "University",
+            "duration": "2018 - Current"
+        },
+        {
+            "name": "Udemy (Web Development)",
             "type": "Extracurricular",
-            "duration": "2021",
-            "description": "Some description"
+            "duration": "2021"
         }
     ],
     "experience": [
         {
-            "company": "Tek Experts",
-            "position": "Techinical Support",
-            "duration": "April 2020 - Current",
-            "description": "Some description"
+            "company": "Sykes",
+            "position": "Customer Support",
+            "duration": "October 2018 - March 2020",
+            "description": " I worked for Capital One’s dispute department where our customers called for assistance with different types of financial and payment issues. Since Capital One is a bank, I was trusted to handle very sensitive information that will help me provide support to our customers."
         },
         {
             "company": "Tek Experts",
             "position": "Techinical Support",
             "duration": "April 2020 - Current",
-            "description": "Some description"
-        },
-        {
-            "company": "Tek Experts",
-            "position": "Techinical Support",
-            "duration": "April 2020 - Current",
-            "description": "Some description"
+            "description": " At Tek Experts I work as technical support engineer providing support for Azure from Microsoft. Here I’ve had to work with other engineers from various companies to solve issues with web services. Many times I have had to work in high severity cases where a customer’s product is about to go into production or is already in production and the issue needs to be solved as quickly as possible."
         }
     ],
     "projects": [
@@ -53,7 +51,8 @@
                 "HTML",
                 "CSS"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "image_url":"https://media.cntraveler.com/photos/59ef91dd8d4f736d51415c2e/master/w_2667,h_2000,c_limit/7MileBeach-2013-HiRes.jpg"
         },
         {
             "title": "MovieDB2",
@@ -63,7 +62,9 @@
                 "HTML",
                 "CSS"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "image_url":"http://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg"
         }
     ]
 }
+

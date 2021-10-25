@@ -7,7 +7,8 @@ interface HeaderElements {
     name: string,
     description: string,
     gitHubLink: string,
-    linkedInLink: string
+    linkedInLink: string,
+    resume: string
 }
 
 const Header: FC<HeaderElements> = (props) => {
@@ -28,16 +29,20 @@ const Header: FC<HeaderElements> = (props) => {
 
                 <div id='infoSection' className='col-lg-6 col-sm-12'>
 
-                    <p>{props.description}</p>
+                    <p className='testp'>{props.description}</p>
 
-                    <a href={props.gitHubLink}>
-                        <img className='icon' src={gitLogo} alt="gitlogo" />
-                    </a>
-                    <a href={props.linkedInLink}>
-                        <img className='icon' src={linkedInLogo} alt="gitlogo" />
-                    </a>
+                    <div>
 
-                    <button className='resumeBtn btn btn-dark'>SEE MY RESUME</button>
+                        <a href={props.gitHubLink}>
+                            <img className='icon' src={gitLogo} alt="gitlogo" />
+                        </a>
+                        <a href={props.linkedInLink}>
+                            <img className='icon' src={linkedInLogo} alt="gitlogo" />
+                        </a>
+
+                        <a className='resumeBtn btn btn-secondary' href={props.resume}>SEE MY RESUME</a>
+
+                    </div>
                 </div>
 
             </div>

@@ -6,8 +6,8 @@ interface ExperienceElements {
 
 const Experience: FC<ExperienceElements> = (props) => {
     return (
-        <div>
-            <h1 className='center'>Experience</h1>
+        <div className='experience-section'>
+            <h1 className='center experience-title'>Experience</h1>
             <div className='container'>
                 <div className='row center'>
                     {props.experience.map((experience) => {
@@ -18,7 +18,7 @@ const Experience: FC<ExperienceElements> = (props) => {
                                 </div>
                                 <p>{experience.position}</p>
                                 <p>{experience.duration}</p>
-                                <p>{experience.description}</p>
+                                <p className='experience-description'>{experience.description}</p>
                             </div>
                         )
                     })}

@@ -8,6 +8,7 @@ interface ProjectsElements {
 const Projects: FC<ProjectsElements> = (props) => {
     return (
         <div id='projectsWrapper' className='blueWrapper'>
+            <h1 className='center projects-header'>Projects</h1>
             <Carousel>
                 {props.projects.map((projects) => {
                     return (
@@ -16,14 +17,14 @@ const Projects: FC<ProjectsElements> = (props) => {
                             <div className='container'>
                                 <div className='row center'>
                                     <div className='projectCard card'>
-                                        <h1>{projects.title}</h1>
+                                        <h2 id='project-title'>{projects.title}</h2>
                                         <div className='container'>
                                             <div className='row center'>
-                                                <div className='col-md-12 col-lg-4 test2'>
+                                                <div className='col-md-12 col-lg-4 project-description'>
                                                     <p>{projects.description}</p>
                                                 </div>
                                                 <div className='col-md-12 col-lg-8'>
-                                                    <img className='project-image' src='https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg' alt=''/>
+                                                    <img className='project-image' src={projects.image_url} alt=''/>
                                                 </div>
                                             </div>
                                         </div>

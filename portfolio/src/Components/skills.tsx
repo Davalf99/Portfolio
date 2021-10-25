@@ -16,7 +16,10 @@ const Skills: FC<SkillsElements> = (props) => {
                 <ul >
                     {props.skillDescription.map((skill) => {
                         return (
-                            <li>{skill}</li>
+                            // <li>{skill}</li>
+                            <p>
+                                <img className='bullet'src='https://twemoji.maxcdn.com/2/72x72/26a1.png' alt='*'/> {skill}
+                            </p>
                         )
                     })}
                 </ul>

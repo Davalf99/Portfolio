@@ -11,7 +11,7 @@ import Footer from './Components/footer';
 function App() {
   return (
     <div>
-      <Header name={information.name} description={information.description} gitHubLink={information.gitHub} linkedInLink={information.linkedIn}/>
+      <Header name={information.name} description={information.description} gitHubLink={information.gitHub} linkedInLink={information.linkedIn} resume={information.resume}/>
       <Skills skillDescription={information.skills}/>
       <Education education={information.education} />
       <Experience experience={information.experience}/>
