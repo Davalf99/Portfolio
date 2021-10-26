@@ -22,9 +22,11 @@ const Projects: FC<ProjectsElements> = (props) => {
                                             <div className='row center'>
                                                 <div className='col-md-12 col-lg-4 project-description'>
                                                     <p>{projects.description}</p>
+                                                    <a href='https://github.com/Davalf99/Movie-Web-App-Practice/tree/master' className='btn btn-primary project-btn'>GitHub</a>
+                                                    <a href='https://davalf99.github.io/Movie-Web-App-Practice/' className='btn btn-dark project-btn'>Visit</a>
                                                 </div>
                                                 <div className='col-md-12 col-lg-8'>
-                                                    <img className='project-image' src={projects.image_url} alt=''/>
+                                                    <img className='project-image' src={projects.image_url} alt='project'/>
                                                 </div>
                                             </div>
                                         </div>
