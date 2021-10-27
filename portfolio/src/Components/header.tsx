@@ -3,6 +3,7 @@ import gitLogo from '../images/github.svg'
 import linkedInLogo from '../images/linkedin.svg'
 import '../styles.css'
 
+
 interface HeaderElements {
     name: string,
     description: string,
@@ -24,7 +25,7 @@ const Header: FC<HeaderElements> = (props) => {
                     <h2 className='center'>
                         Hey, I'm {props.name}!
                     </h2>
-                    <img id='profilePicture' src='https://avatars.githubusercontent.com/u/46801794?v=4' alt='profile' />
+                    <img id='profilePicture' className='custom-shadow' src='https://avatars.githubusercontent.com/u/46801794?v=4' alt='profile' />
                 </div>
 
                 <div id='infoSection' className='col-lg-6 col-sm-12'>

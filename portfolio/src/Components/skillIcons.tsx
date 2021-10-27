@@ -17,43 +17,43 @@ const SkillIcons: FC = () => {
     return (
         <div className='skillsMainContainer'>
             <div className='skillsContainer center'>
-                <div title='html-5'className='skillIconWrapper'>
+                <div title='html-5'className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={html} alt='html' />
                 </div>
-                <div title='css3' className='skillIconWrapper'>
+                <div title='css3' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={css} alt='css' />
                 </div>
-                <div title='JavaScript' className='skillIconWrapper'>
+                <div title='JavaScript' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={js} alt='js' />
                 </div>
-                <div title='TypeScript' className='skillIconWrapper'>
+                <div title='TypeScript' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={ts} alt='ts' />
                 </div>
-                <div title='React' className='skillIconWrapper'>
+                <div title='React' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={react} alt='react' />
                 </div>
-                <div title='Node' className='skillIconWrapper'>
+                <div title='Node' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={node} alt='node' />
                 </div>
             </div>
 
             <div className='skillsContainer center'>
-                <div title='Java' className='skillIconWrapper'>
+                <div title='Java' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={java} alt='java' />
                 </div>
-                <div title='C#' className='skillIconWrapper'>
+                <div title='C#' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={cs} alt='cs' />
                 </div>
-                <div title='C++' className='skillIconWrapper'>
+                <div title='C++' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={cpp} alt='cpp' />
                 </div>
-                <div title='Mongo' className='skillIconWrapper'>
+                <div title='Mongo' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={mongo} alt='mongo' />
                 </div>
-                <div title='BootStrap' className='skillIconWrapper'>
+                <div title='BootStrap' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={bootsrap} alt='bootstrap' />
                 </div>
-                <div title='Azure' className='skillIconWrapper'>
+                <div title='Azure' className='skillIconWrapper custom-shadow'>
                     <img className='skillIcon' src={azure} alt='azure' />
                 </div>
             </div>

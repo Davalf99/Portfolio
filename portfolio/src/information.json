@@ -2,10 +2,10 @@
     "name": "David Alfonso",
     "email": "davalf99@gmail.com",
     "phone": "+506 83088669",
-    "description": "I am a software developer, currently focusing on web development. I enjoy front-end development as well as the back-end. I am looking to get more practice and experience in the world of development. I hope to also learn new technologies to add to my stack. I created this portfolio with React to showcase some of my abilities. You can find the repo in the projects section.",
+    "description": "I am a software developer, currently focusing on web development. I enjoy front-end development as well as the back-end. I am looking to get more practice and experience in the world of development. I hope to also learn new technologies to add to my stack. I created this portfolio with React to showcase some of my abilities. You can find the repo for this website in my GitHub page.",
     "linkedIn": "https://www.linkedin.com/in/david-alfonso-75159b1a3/",
     "gitHub": "https://github.com/Davalf99",
-    "resume":"https://www.yumpu.com/es/document/read/65933665/davidresume",
+    "resume":"https://www.yumpu.com/en/document/read/65938494/resume",
     "skills": [
         "I am able to develop front-ends using HTML 5, CSS 3, JavaScript/TypeScript and frameworks such as React and Bootstrap.",
         "Familiar with back-end technologies such as NodeJs, C++, C# and Java.",
@@ -51,19 +51,23 @@
                 "HTML",
                 "CSS"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "image_url":"https://drive.google.com/uc?export=view&id=1LOVcGbwJmYwvpZDtfttPOI5KPuWavoKe"
+            "description": "I created this web app with React using styled components as practice. This app fetches data from a 3rd party api with information about movies.",
+            "image_url":"https://drive.google.com/uc?export=view&id=1LOVcGbwJmYwvpZDtfttPOI5KPuWavoKe",
+            "github":"https://github.com/Davalf99/Movie-Web-App-Practice/tree/master",
+            "site_url":"https://davalf99.github.io/Movie-Web-App-Practice/"
         },
         {
-            "title": "MovieDB2",
+            "title": "Astronaughty",
             "technologies": [
                 "React",
                 "JavaScript",
                 "HTML",
                 "CSS"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "image_url":"http://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg"
+            "description": "This a simple mobile arcade game for iOS and Android that I made with Unity.",
+            "image_url":"https://play-lh.googleusercontent.com/UiIJ5wwgPzalIIKzlKvvYXmopncOZfJpHsd0JfaglkrDzCCEcemRgkvgtfBQ_5xwxUM=w1572-h1359-rw",
+            "github":"",
+            "site_url":"https://play.google.com/store/apps/details?id=com.WhiteCanvas.Astronaughty"
         }
     ]
 }
