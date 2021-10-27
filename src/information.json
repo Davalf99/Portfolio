@@ -13,7 +13,7 @@
     ],
     "education": [
         {
-            "name": "Lad Nubes School",
+            "name": "Las Nubes School",
             "type": "High School",
             "duration": "2013 - 2016"
         },
@@ -66,7 +66,7 @@
             ],
             "description": "This a simple mobile arcade game for iOS and Android that I made with Unity.",
             "image_url":"https://play-lh.googleusercontent.com/UiIJ5wwgPzalIIKzlKvvYXmopncOZfJpHsd0JfaglkrDzCCEcemRgkvgtfBQ_5xwxUM=w1572-h1359-rw",
-            "github":"",
+            "github":"https://github.com/santi-ap/astronaughty",
             "site_url":"https://play.google.com/store/apps/details?id=com.WhiteCanvas.Astronaughty"
         }
     ]
