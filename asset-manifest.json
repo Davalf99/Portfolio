@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.55c05d21.chunk.css",
+    "main.js": "/Portfolio/static/js/main.cab0b83a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cab0b83a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.5d68f097.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.5d68f097.js.map",
+    "static/js/2.e37faba9.chunk.js": "/Portfolio/static/js/2.e37faba9.chunk.js",
+    "static/js/2.e37faba9.chunk.js.map": "/Portfolio/static/js/2.e37faba9.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.55c05d21.chunk.css.map": "/Portfolio/static/css/main.55c05d21.chunk.css.map",
+    "static/js/2.e37faba9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e37faba9.chunk.js.LICENSE.txt",
+    "static/media/azure.5a694f18.png": "/Portfolio/static/media/azure.5a694f18.png",
+    "static/media/bootstrap.c64e8673.png": "/Portfolio/static/media/bootstrap.c64e8673.png",
+    "static/media/cpp.1240ce15.png": "/Portfolio/static/media/cpp.1240ce15.png",
+    "static/media/cs.a7ec03d2.svg": "/Portfolio/static/media/cs.a7ec03d2.svg",
+    "static/media/email.80b23b18.svg": "/Portfolio/static/media/email.80b23b18.svg",
+    "static/media/github.e2f07326.svg": "/Portfolio/static/media/github.e2f07326.svg",
+    "static/media/html.2c6a71b1.png": "/Portfolio/static/media/html.2c6a71b1.png",
+    "static/media/java.fdabd4e1.png": "/Portfolio/static/media/java.fdabd4e1.png",
+    "static/media/js.029db7d4.png": "/Portfolio/static/media/js.029db7d4.png",
+    "static/media/linkedin.f4041044.svg": "/Portfolio/static/media/linkedin.f4041044.svg",
+    "static/media/mongo.e3746a16.png": "/Portfolio/static/media/mongo.e3746a16.png",
+    "static/media/node.8e341cc0.png": "/Portfolio/static/media/node.8e341cc0.png",
+    "static/media/phone.ac5f8fa5.svg": "/Portfolio/static/media/phone.ac5f8fa5.svg",
+    "static/media/react.f3e576ba.png": "/Portfolio/static/media/react.f3e576ba.png",
+    "static/media/ts.29073194.png": "/Portfolio/static/media/ts.29073194.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d68f097.js",
+    "static/js/2.e37faba9.chunk.js",
+    "static/css/main.55c05d21.chunk.css",
+    "static/js/main.cab0b83a.chunk.js"
+  ]
+}
